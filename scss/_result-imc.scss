@@ -1,0 +1,18 @@
+.result-imc{
+    @include card();
+
+    h2{
+        font-size: 36px;
+    }
+
+    p{
+        margin: 30px 0;
+    }
+
+    button{
+        @include btn();
+        width: 100%;
+    }
+
+
+}
